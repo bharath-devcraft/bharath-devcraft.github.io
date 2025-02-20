@@ -1125,7 +1125,12 @@ textarea.form-input {
     .sidebar-info { gap: 25px; }
 
     .avatar-box { border-radius: 30px; }
-        .avatar-box img { width: 120px; }
+        .avatar-box img { 
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
 
     .info-content .name { margin-bottom: 15px; }
     .info-content .title { padding: 5px 10px; }
