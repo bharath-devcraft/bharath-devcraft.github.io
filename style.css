@@ -59,6 +59,12 @@ li {list-style: none; }
 
 img, ion-icon, a, button, time, span { display: block; }
 
+.avatar-box img {width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 button {
     font: inherit;
     background: none;
