@@ -234,8 +234,9 @@ article { display: none; }
 
 
 .avatar-box {
-    background: var(--bg-gradient-onyx);
-    border-radius: 20px;
+    /* background: var(--bg-gradient-onyx); */
+    /* border-radius: 20px; */
+    
 }
 
 .info-content .name {
@@ -1440,7 +1441,12 @@ textarea.form-input {
 
     .sidebar-info { flex-direction: column; }
 
-    .avatar-box img { width: 90px; }
+    .avatar-box img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
 
     .info-content .name {
         white-space: nowrap;
