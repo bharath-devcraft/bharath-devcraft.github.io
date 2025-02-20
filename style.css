@@ -379,6 +379,22 @@ article { display: none; }
 
 /*ABOUT*/
 
+.cv-download {
+    padding: 8px 16px;
+    background-color: white;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    width: fit-content;
+    font-size: 14px;
+}
+
+.cv-download:hover {
+    background-color: #5ef3b5;
+}
+
+
 .about .article-title { 
     margin-bottom: 15px;
     margin-top: 15px;
